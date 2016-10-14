@@ -37,12 +37,22 @@ body {
     background-color: black;
 }
 
-.container ul li a:first-of-type {
+/*.container ul li a:first-of-type {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
 .container ul li a:last-of-type {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}*/
+
+.container ul li:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.container ul li:last-child {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
