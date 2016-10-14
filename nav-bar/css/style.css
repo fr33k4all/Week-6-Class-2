@@ -36,8 +36,13 @@ body {
 .container ul li a:hover {
     background-color: black;
 }
+
+.container ul li a:first-of-type {
+    border-top-left-radius: 3px;
+}
+
 .clearfix::after {
     content: "";
     display: block;
-    clear: both;
+    clear: left;
 }
