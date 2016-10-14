@@ -47,12 +47,12 @@ body {
     border-bottom-right-radius: 5px;
 }*/
 
-.container ul li:first-child {
+.container ul li:nth-first-child {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
-.container ul li:last-child {
+.container ul li:nth-last-child {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
