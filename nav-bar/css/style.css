@@ -38,7 +38,13 @@ body {
 }
 
 .container ul li a:first-of-type {
-    border-top-left-radius: 3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.container ul li a:last-of-type {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .clearfix::after {
